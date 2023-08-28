@@ -103,3 +103,29 @@ k = 40
 l = 45
 print("Less than or equal to:", k <= l)  
 
+# Logical AND
+a = True
+b = False
+print("Logical AND:", a and b)  
+
+# Logical OR
+c = True
+d = False
+print("Logical OR:", c or d)  
+
+# Logical NOT
+e = True
+print("Logical NOT:", not e)  
+
+# Combining logical operators
+f = True
+g = False
+h = True
+print("Combining logical operators:", (f and g) or h)  
+
+# Short-circuiting behavior
+i = 5
+j = 0
+result = (j != 0) and (i / j > 2)
+print("Short-circuiting behavior:", result)  
+
