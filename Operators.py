@@ -73,27 +73,33 @@ h = 3
 h **= 2
 print("Exponentiation Assignment:", h)  
 
-# Bitwise AND Assignment
-i = 0b101010
-i &= 0b110011
-print("Bitwise AND Assignment:", bin(i))  
+# Equal to
+a = 5
+b = 5
+print("Equal to:", a == b)  
 
-# Bitwise OR Assignment
-j = 0b101010
-j |= 0b110011
-print("Bitwise OR Assignment:", bin(j))  
+# Not equal to
+c = 10
+d = 7
+print("Not equal to:", c != d)  
 
-# Bitwise XOR Assignment
-k = 0b101010
-k ^= 0b110011
-print("Bitwise XOR Assignment:", bin(k))  
+# Greater than
+e = 15
+f = 12
+print("Greater than:", e > f)  
 
-# Bitwise Left Shift Assignment
-l = 0b101010
-l <<= 2
-print("Bitwise Left Shift Assignment:", bin(l)) 
+# Less than
+g = 20
+h = 25
+print("Less than:", g < h)  
 
-# Bitwise Right Shift Assignment
-m = 0b101010
-m >>= 1
-print("Bitwise Right Shift Assignment:", bin(m))  
+# Greater than or equal to
+i = 30
+j = 30
+print("Greater than or equal to:", i >= j)  
+
+# Less than or equal to
+k = 40
+l = 45
+print("Less than or equal to:", k <= l)  
+
