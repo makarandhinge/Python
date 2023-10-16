@@ -44,3 +44,29 @@ while(i <= 10):
         continue
     print(i)
 
+#List
+
+list = [1,3,5,4,6]
+squares = []
+while list:
+    squares.append((list.pop())**2)
+print(squares)
+
+
+list1 = [1,3,5,4,6,8,9]
+index = 0
+while index < len(list1):
+    element = list1[index]
+    if element % 2 == 0:
+        print("Even Number")
+    else:
+        print("Odd Number")
+    index += 1
+
+
+list2 = ['James','Joe','Makarand','Jenny','SeeyaRam']
+index = 0
+while index < len(list2):
+    element = list2[index]
+    print(len(element))
+    index += 1

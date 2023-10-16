@@ -1,3 +1,5 @@
 {
-    "gitdoc.enabled": true
+    "gitdoc.enabled": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true
 }
